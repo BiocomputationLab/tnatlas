@@ -121,7 +121,7 @@ i.e (in data folder) `tnfind . ./results/results.xlsx -transposon transposons.gb
 ## tnmeta
 
 
-`tnmeta -o path_to_results_folder/results.xlsx 'PLATE-' '-WELL-premix' output_file_name.xlsx`
+`tnmeta -o path_to_results_folder/results.xlsx 'PLATE-WELL-' output_file_name.xlsx`
 
 **usage**: 
 

@@ -28,10 +28,10 @@ Some parts of the pipeline also require
 ## From source code
 
 1. Get the code:
-   `git clone https://github.com/biocomputationlab/transposonaligner`
+   `git clone https://github.com/BiocomputationLab/tnatlas`
 3. Install using pip:
    
-   `python3 -m pip install ./transposonaligner`
+   `python3 -m pip install ./tnatlas`
 
 ## From PyPI (using pip)
 
@@ -121,7 +121,7 @@ i.e (in data folder) `tnfind . ./results/results.xlsx -transposon transposons.gb
 ## tnmeta
 
 
-`tnmeta -o path_to_results_folder/results.xlsx 'PLATE-WELL-' output_file_name.xlsx`
+`tnmeta -o path_to_results_folder/results.xlsx 'PLATE-WELL-' output_file_name.xlsx metadata_file.xlsx`
 
 **usage**: 
 
@@ -145,7 +145,7 @@ Attach well metadata to a results table from a plate map
   
   -o OUTPUT_FILE  If given, output will be saved to OUTPUT_FILE, if not, RESULT_FILE will be overwritten
 
-i.e (in data folder) `tnmeta -o ./results.xlsx 'PLATE' 'WELL-premix' ./results(results.meta`
+i.e (in data folder) `tnmeta -o ./results.xlsx 'PLATE-WELL' ./results.meta.xlsx ./PLATE_metadata.xlsx `
 
 # Contributing
 
